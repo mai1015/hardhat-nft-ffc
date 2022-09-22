@@ -2,7 +2,5 @@
 /* tslint:disable */
 /* eslint-disable */
 export * as test from "./test";
-export { APIConsumer__factory } from "./APIConsumer__factory";
-export { KeepersCounter__factory } from "./KeepersCounter__factory";
-export { PriceConsumerV3__factory } from "./PriceConsumerV3__factory";
-export { RandomNumberConsumerV2__factory } from "./RandomNumberConsumerV2__factory";
+export { BasicNFT__factory } from "./BasicNFT__factory";
+export { RandomIpfsNFT__factory } from "./RandomIpfsNFT__factory";

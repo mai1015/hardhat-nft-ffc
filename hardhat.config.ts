@@ -88,7 +88,7 @@ const config: HardhatUserConfig = {
     },
     contractSizer: {
         runOnCompile: false,
-        only: ["APIConsumer", "KeepersCounter", "PriceConsumerV3", "RandomNumberConsumer"],
+        only: ["BasicNFT", "RandomIpfsNFT"],
     },
     namedAccounts: {
         deployer: {
